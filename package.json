@@ -14,3 +14,9 @@
     "framer-motion": "latest"
   }
 }
+git init
+git add .
+git commit -m "full Next.js project"
+git branch -M main
+git remote add origin https://github.com/ZenMedia-ai/zenmedia-site.git
+git push -u origin main
