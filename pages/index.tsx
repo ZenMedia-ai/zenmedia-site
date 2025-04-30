@@ -36,3 +36,4 @@ export default function Home() {
     </main>
   );
 }
+Update index.tsx to full homepage layout
