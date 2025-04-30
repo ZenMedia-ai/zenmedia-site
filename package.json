@@ -1,5 +1,5 @@
 {
-  "name": "zenmedia-ai-pro",
+  "name": "zenmedia-ai",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -7,16 +7,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest",
-    "framer-motion": "latest"
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "typescript": "^5.8.3"
   }
 }
-git init
-git add .
-git commit -m "full Next.js project"
-git branch -M main
-git remote add origin https://github.com/ZenMedia-ai/zenmedia-site.git
-git push -u origin main
