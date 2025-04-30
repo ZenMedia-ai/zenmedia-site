@@ -1,11 +1,9 @@
-import React from "react";
-
 export default function Home() {
   return (
-    <main>
-      <h1>🚀 ZenMedia.ai is Live!</h1>
-      <p>Congrats — your site is now compiling and working! 🎉</p>
-    </main>
+    <div style={{ padding: '80px', textAlign: 'center' }}>
+      <h1>🎉 Welcome to ZenMedia.ai</h1>
+      <p>Motivation, Monetization & Momentum — for super-parents and digital creators.</p>
+    </div>
   );
 }
-
+fix: added real homepage content
