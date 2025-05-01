@@ -118,3 +118,7 @@ export default function Home() {
     </main>
   );
 }
+git add pages/index.tsx
+git commit -m "Resolved merge conflict in index.tsx"
+git push origin main
+
