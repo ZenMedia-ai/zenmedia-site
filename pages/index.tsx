@@ -74,8 +74,8 @@
   {/* FOOTER */}
   <footer className="bg-gray-900 text-gray-300 py-10 px-6">
     <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
-      <div>
-        <Image src={logo} alt="ZenMedia Logo" width={48} height={48} className="mb-4" />
+      <div><Image src="/logo.png" alt="ZenMedia.ai Logo" width={80} height={80} className="mb-4" />
+
         <p>Empowering super-parents, creators, and entrepreneurs through AI-driven tools and mindful strategies.</p>
       </div>
       <div>
