@@ -2,8 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true, // ✅ Disable optimization for Netlify static export
+    unoptimized: true,
   },
+  output: 'export', // ✅ This is the key line Netlify now expects
 };
 
 module.exports = nextConfig;
