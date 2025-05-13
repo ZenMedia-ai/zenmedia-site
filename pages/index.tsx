@@ -77,7 +77,7 @@ export default function Home() {
                     <input type="text" name="LNAME" className=" text" id="mce-LNAME" placeholder="Last Name" />
                   </div>
                   <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
-                    <input type="text" name="b_e52cf29046d53765ada9d79d1_3bc5cb55bf" tabIndex="-1" value="" />
+                    <input type="text" name="b_e52cf29046d53765ada9d79d1_3bc5cb55bf" tabIndex={-1} value="" />
                   </div>
                   <div className="clear">
                     <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Subscribe" />
