@@ -1,16 +1,8 @@
-# netlify.toml
+# netlify.toml (at the repo root)
+
 [build]
-  # exactly the same commands you run locally
-  command   = "npm ci && npm run build && npm run export"
-  publish   = "out"
-  base      = "/"
-
-  # if you have Netlify Functions (you probably don’t in a pure static export)
-[functions]
-  directory = "netlify/functions"
-
-# Explicitly disable the Next.js plugin to avoid any
-# Netlify auto-configuration poking holes in our static export
-[[plugins]]
-  package  = "@netlify/plugin-nextjs"
-  enabled  = false
+  # exactly your local build+export chain:
+  command = "npm ci && npm run build && npm run export"
+  # this is the folder Next.js outputs when you run `next export`
+  publish = "out"
+  base    = "/"
