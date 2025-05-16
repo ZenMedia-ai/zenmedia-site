@@ -1,8 +1,8 @@
-# netlify.toml (at the repo root)
-
 [build]
-  # exactly your local build+export chain:
-  command = "npm ci && npm run build && npm run export"
-  # this is the folder Next.js outputs when you run `next export`
-  publish = "out"
-  base    = "/"
+  command = "npm ci && npm run build"   # install fresh & build
+  publish = "out"                        # Next.js static export folder
+
+[plugins]
+  # disable any Gatsby plugin
+  [[plugins]]
+    package = "@netlify/plugin-nextjs"
